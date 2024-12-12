@@ -9,6 +9,6 @@ export default {
     port: process.env.PORT || 3000,
     mongoUri: process.env.MONGODB_URI, // Set this in your deployment environment
     jwtSecret: process.env.JWT_SECRET, // Set this in your deployment environment
-    corsOrigin: process.env.CORS_ORIGIN || 'https://your-frontend-domain.com' // Replace with your frontend domain
+    corsOrigin: process.env.CORS_ORIGIN || 'https://todo-5jjpnxux0-balraj-singhs-projects-f7101faf.vercel.app' // Replace with your frontend domain
   }
 };
