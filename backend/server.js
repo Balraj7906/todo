@@ -16,6 +16,10 @@ const currentConfig = config[environment];
 
 const app = express();
 
+app.get("/", ((req, res) => {
+  res.send("Server started")
+}))
+
 // Security middleware
 app.use(cors({
   origin: ["https://deploy-todo-app.vercel.app"],
