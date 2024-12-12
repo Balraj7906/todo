@@ -18,7 +18,8 @@ const app = express();
 
 // Security middleware
 app.use(cors({
-  origin: currentConfig.corsOrigin,
+  origin: ["https://deploy-todo-app.vercel.app"],
+  methods: ["POST", "GET"],
   credentials: true
 }));
 
